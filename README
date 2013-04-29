@@ -1,0 +1,5 @@
+This script will check the dns for domains and the mail servers for each domain to see where they resolve. This is useful during migrations and propagations.
+
+Usage: Create a text file with a list of the domains you wish to check. Put the text file in the same folder as the script and go.
+
+Note: The mx records checker section currently only works for domains using mail.domainname.com as their mx record host. I will update this further in the future.
